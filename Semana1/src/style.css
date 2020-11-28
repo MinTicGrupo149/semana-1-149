@@ -5,7 +5,7 @@ body{
 
 .container{
     width: 1200px;
-    background-color: #888888;
+    background-color: #39850dea;
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
@@ -14,7 +14,7 @@ body{
 }
 
 .header{
-    background-color: aqua;
+    background-color: rgb(67, 165, 11);
     height: auto;
     
 }
@@ -31,7 +31,7 @@ body{
 .container-logo{
     width: 100%;
     height: inherit;
-    background-color: azure;
+    background-color: rgb(22, 9, 95);
     text-align: center;
 }
 
@@ -41,7 +41,8 @@ body{
 }
 
 .container-imagen{
-    background-image: url('./bg.png');
+    /*background-image: url('./Aprender2.jpg');*/
+    background: url('./Aprender.png') no-repeat center top;
     height: 240px;
     /* margin-bottom: 20px; */
 }
@@ -49,6 +50,7 @@ body{
 .nav-list{
     padding: 0.25em 0;
     list-style-type: none;
+    background-color: rgb(22, 9, 95);
     text-align: end;
     width: 100%
 }
@@ -68,14 +70,26 @@ body{
 
 .image-text{
     margin: 0;
-    padding: 9% 0;
+    padding: 6% 0;
     text-align: center;
+}
+
+.image-text1{
+    background: url('./SevicioMedico.png') no-repeat center top;
+    height: 200px;
+}
+.image-text2{
+    background: url('./EquipoDeportivo.png') no-repeat center top;
+    height: 200px;
+}
+.image-text3{
+    background: url('./CanchasSinteticas.png') no-repeat center top;
+    height: 200px;
 }
 
 .section-1{
     height: 500px;
-    background-color: rebeccapurple;
-
+    background-color: rgb(9, 38, 102);
 }
 
 .section-2{
@@ -107,7 +121,7 @@ body{
 .col-3{
     width: 33.08%;
     height: 470px;
-    background-color: aquamarine;
+    background-color: rgb(9, 38, 102);
     display: inline-block;
     padding: -15px;
     margin-top: 5px;
