@@ -5,7 +5,7 @@ body{
 
 .container{
     width: 1200px;
-    background-color: #39850dea;
+    background-color: #122eceea;
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
@@ -14,7 +14,7 @@ body{
 }
 
 .header{
-    background-color: rgb(67, 165, 11);
+    background-color: rgb(255, 255, 255);
     height: auto;
     
 }
@@ -31,7 +31,7 @@ body{
 .container-logo{
     width: 100%;
     height: inherit;
-    background-color: rgb(22, 9, 95);
+    background-color: rgb(25, 25, 175);
     text-align: center;
 }
 
@@ -43,14 +43,15 @@ body{
 .container-imagen{
     /*background-image: url('./Aprender2.jpg');*/
     background: url('./Aprender.png') no-repeat center top;
-    height: 240px;
+    height: 250px;
+    width: 1200px;
     /* margin-bottom: 20px; */
 }
 
 .nav-list{
     padding: 0.25em 0;
     list-style-type: none;
-    background-color: rgb(22, 9, 95);
+    background-color: rgb(25, 25, 175);
     text-align: end;
     width: 100%
 }
@@ -59,7 +60,7 @@ body{
     padding: 1em 15px;
     display: inline-block;
     text-decoration: none;
-    color: #3e3e3e;
+    color: #1d1b1b;
 
 }
 
@@ -89,22 +90,22 @@ body{
 
 .section-1{
     height: 500px;
-    background-color: rgb(9, 38, 102);
+    background-color: rgb(25, 25, 175);
 }
 
 .section-2{
     height: 500px;
-    background-color: gainsboro;
+    background-color: #181616;
 }
 
 .section-3{
-    height: 500px;
-    background-color: coral;
+    height: 450px;
+    background-color: rgb(12, 18, 109);
 }
 
 .footer{
-    height: 200px;
-    background-color: yellowgreen;
+    height: 250px;
+    background-color: rgb(9, 38, 102);
     bottom: 0px;
     /* position: fixed; */
     /* width: 1200px; */
@@ -233,4 +234,36 @@ hr{
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+
+.team-juan{
+    background: url('./Juan Pabón.png') no-repeat center top;
+    height: 200px;
+}
+
+.team-jesus{
+    background: url('./Jesús Rivas.png') no-repeat center top;
+    height: 200px;
+}
+
+.team-santiago{
+    background: url('./Santiago Monsalve (2).png') no-repeat center top;
+    height: 200px;
+}
+
+.footer-text{
+    color: white;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+
+.news-img{
+    margin: 20px 40px 0px 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.text-white{
+    color: white;
 }
