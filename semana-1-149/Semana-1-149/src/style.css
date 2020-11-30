@@ -1,0 +1,270 @@
+body{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    background-color: rgb(9, 38, 102);
+    height: 2000px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    
+}
+
+.container-menu{
+    height: 60px;
+    background-color: antiquewhite;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+
+}
+.container-logo{
+    width: 100%;
+    height: inherit;
+    background-color: rgb(9, 38, 102);
+    text-align: center;
+}
+
+.site-title{
+    margin: 0;
+    padding: 0.36em 0;
+}
+
+.container-imagen{
+    /*background-image: url('./Aprender2.jpg');*/
+    background: url('./Aprender.png') no-repeat center top;
+    height: 250px;
+    width: 1200px;
+    /* margin-bottom: 20px; */
+}
+
+.nav-list{
+    padding: 0.25em 0;
+    list-style-type: none;
+    background-color:  rgb(9, 38, 102);
+    text-align: end;
+    width: 100%
+}
+
+.nav-element{
+    padding: 1em 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #1d1b1b;
+
+}
+
+.nav-element:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.image-text{
+    margin: 0;
+    padding: 6% 0;
+    text-align: center;
+}
+
+.image-text1{
+    background: url('./SevicioMedico.png') no-repeat center top;
+    height: 200px;
+}
+.image-text2{
+    background: url('./EquipoDeportivo.png') no-repeat center top;
+    height: 200px;
+}
+.image-text3{
+    background: url('./CanchasSinteticas.png') no-repeat center top;
+    height: 200px;
+}
+
+.section-1{
+    height: 500px;
+    background-color: rgb(9, 38, 102);
+}
+
+.section-2{
+    height: 500px;
+    background-color: #181616;
+}
+
+.section-3{
+    height: 350px;
+    background-color: rgb(9, 38, 102);
+}
+
+.footer{
+    height: 350px;
+    background-color: rgb(9, 38, 102);
+    bottom: 0px;
+    /* position: fixed; */
+    /* width: 1200px; */
+}
+
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col-3{
+    width: 33.08%;
+    height: 470px;
+    background-color: rgb(9, 38, 102);
+    display: inline-block;
+    padding: -15px;
+    margin-top: 5px;
+    text-align: center;
+}
+.col-5{
+    width: 19%;
+    height: 470px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: center;
+    background-color: rgb(255, 177, 148);
+}
+
+.service-content{
+    padding: 0.5em 0;
+    background-color: rgb(9, 38, 102);
+}
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+}
+
+.service-text.memebers{
+    font-style: italic; 
+}
+
+.section-news > div:first-child{
+    margin-bottom: 2px; 
+}
+.news{
+    width: 100%;
+    background-color: rgb(0, 5, 5);
+    height: 240px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.news > div:first-child{
+    margin: 0 6px;
+}
+
+.news-data{
+    width: 49%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+}
+
+.news-image{
+    margin: 10px 0;
+    padding: 0 40px;
+    color: white;
+}
+
+.news-text{
+    color: white;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+
+.news-text > span.news-url{
+    text-align: right;
+}
+
+
+.fa-ambulance.news-logo{
+    padding: 0.25em 0;
+}
+
+
+.news-url{
+    font-size: 10px;
+    float: right;
+}
+
+.news-url > a{
+
+    color: #ffffff; 
+}
+
+hr{
+    color: white;
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1em;
+    color: #3e3e3e;
+}
+
+.main-menu__link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.team-juan{
+    background: url('./Juan Pabón.png') no-repeat center top;
+    height: 300px;
+}
+
+.team-jesus{
+    background: url('./Jesús Rivas.png') no-repeat center top;
+    height: 300px;
+}
+
+.team-santiago{
+    background: url('./Santiago Monsalve (2).png') no-repeat center top;
+    height: 300px;
+}
+
+.footer-text{
+    color: white;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+
+.news-img{
+    margin: 20px 40px 0px 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.text-white{
+    color: white;
+}
